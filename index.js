@@ -7,9 +7,9 @@ app.use(cors()); // Habilitar CORS
 
 // Configurar Cloudinary
 cloudinary.config({
-  cloud_name: "drbvcuaak",
-  api_key: "285915571483646",
-  api_secret: "xhFxxPOHrx9mqNNW3p1K2q3_w0k",
+  cloud_name: "dcguf9eiv",
+  api_key: "699241462972445",
+  api_secret: "058v8FqV3cpv_JdbR2Kawx6isNM",
 });
 
 app.get("/getImages", async (req, res) => {
