@@ -17,7 +17,7 @@ app.get("/getImages", async (req, res) => {
     const resources = await cloudinary.api.resources({
       type: "upload",
       prefix: "guest", // Carpeta en Cloudinary
-      max_results: 10,
+      max_results: 1000,
     });
     res.json(resources);
   } catch (error) {
